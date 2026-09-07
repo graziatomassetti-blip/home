@@ -1,8 +1,9 @@
-const CACHE = 'bodas-v4';
+const CACHE = 'bodas-v5';
 
 const FILES = [
   './',
   './index.html',
+  './home.html',
   './manifest.json',
   './icon-192.png',
   './icon-512.png'
