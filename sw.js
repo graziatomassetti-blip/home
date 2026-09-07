@@ -1,4 +1,4 @@
-const CACHE = 'bodas-v3';
+const CACHE = 'bodas-v4';
 
 const FILES = [
   './',
