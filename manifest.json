@@ -1,7 +1,7 @@
 {
   "name": "WhatsApp",
   "short_name": "WhatsApp",
-  "start_url": "home.html",
+  "start_url": "index.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",

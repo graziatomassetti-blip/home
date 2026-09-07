@@ -1,8 +1,7 @@
-const CACHE = 'bodas-v1';
+const CACHE = 'bodas-v2';
 
 const FILES = [
   './',
-  './home.html',
   './index.html',
   './manifest.json',
   './icon-192.png',
@@ -36,7 +35,7 @@ self.addEventListener('fetch', e => {
         const copy = resp.clone();
         caches.open(CACHE).then(c => c.put(e.request, copy));
         return resp;
-      }).catch(() => caches.match('./home.html'));
+      }).catch(() => caches.match('./index.html'));
     })
   );
 });
